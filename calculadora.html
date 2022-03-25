@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+    <script>
+        
+
+
+
+const sumar = (num1,num2)=>{
+    return parseInt(num1)+ parseInt(num2);
+    
+    
+}
+
+const restar = (num1,num2)=>{
+    return parseInt(num1)- parseInt(num2);}
+    
+    
+ const dividir = (num1,num2)=>{
+ return parseInt(num1)/ parseInt(num2);}
+ 
+ const multiplicar = (num1,num2)=>{
+    return parseInt(num1)* parseInt(num2);}
+    name = prompt("como te llamas?")
+    alert("hola " + name)
+    
+    
+    alert("Que vas a hacer.");
+    
+    var operacion = prompt("1:suma 2:resta 3:multiplicar 4:dividir")
+    
+    if (operacion == 1){
+        
+       let numero1 = prompt("Primer numero para sumar") 
+       
+       let numero2 = prompt("Segundo numero para sumar")
+       
+       resultado = sumar(numero1,numero2);
+       alert("tu resultado es " + resultado)
+       
+    }
+
+else if (operacion == 2){
+    let numero3 = prompt("Primer numero para restar")
+    let numero4 = prompt("Segundo numero para restar")
+    
+    f = restar(numero3,numero4);
+    alert("el resultado es " + f)
+    
+}
+else if (operacion == 3){
+  let numero5 = prompt("Primer numero para multiplicar")
+  let numero6 = prompt("Segundo numero para multiplicar")
+  sa = multiplicar(numero5,numero6)
+  alert("El resultado es " + sa)
+}
+else if (operacion == 4){
+  let numero7 = prompt("Primer numero para dividir")
+  let numero8 = prompt("Segundo numero para dividir")
+  hi = dividir(numero7,numero8)
+  alert("el resultado es " + hi)
+}
+
+        
+ 
+    </script>
+        
+    </body>
+</html>
